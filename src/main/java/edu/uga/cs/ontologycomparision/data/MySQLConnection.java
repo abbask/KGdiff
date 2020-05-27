@@ -12,6 +12,7 @@ public class MySQLConnection {
 	final static Logger logger = Logger.getLogger(MySQLConnection.class);
 	
 	static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
+	//static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
 	static final String JDBC_DB_URL = "jdbc:mysql://localhost:3306/ontology_comparison"; 
 	
 	static final String JDBC_USER = "root";
@@ -35,6 +36,7 @@ public class MySQLConnection {
 				Class.forName(JDBC_DRIVER);  
 	
 				connObj = DriverManager.getConnection(JDBC_DB_URL + "?user=" + JDBC_USER + "&password=" + JDBC_PASS + "&serverTimezone=UTC&useSSL=false");
+				
 			}
 		} catch (Exception sqlException) {
 			sqlException.printStackTrace();
