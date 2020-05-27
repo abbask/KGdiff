@@ -14,10 +14,10 @@
 <nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="/OntologyComparing/EndPointList">Ontology Comparison</a>
+      <a class="navbar-brand" href="/KGDiff/EndPointList">KGDiff</a>
     </div>
     <ul class="nav navbar-nav">
-      <li class="active"><a href="/OntologyComparing/EndPointList">End Points</a></li>      
+      <li class="active"><a href="/KGDiff/EndPointList">End Points</a></li>      
       
     </ul>
   </div>

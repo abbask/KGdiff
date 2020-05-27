@@ -15,15 +15,15 @@
 <nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="/OntologyComparing/VersionList">Ontology Comparing</a>
+      <a class="navbar-brand" href="/KGDiff/VersionList">KGDiff</a>
     </div>
     <ul class="nav navbar-nav">
-      <li ><a href="/OntologyComparing/VersionList">Versions</a></li>      
+      <li ><a href="/KGDiff/VersionList">Versions</a></li>      
    	<ul class="nav navbar-nav">
-      <li class="active"><a href="/OntologyComparing/compare">Comparison</a></li>   
+      <li class="active"><a href="/KGDiff/compare">Comparison</a></li>   
     </ul>
     <ul class="nav navbar-nav">
-      <li ><a href="/OntologyComparing/showschema">Schema</a></li>   
+      <li ><a href="/KGDiff/showschema">Schema</a></li>   
     </ul>
   </div>
 </nav>
