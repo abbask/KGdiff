@@ -1,5 +1,5 @@
-CREATE DATABASE  IF NOT EXISTS `ontology_comparison` /*!40100 DEFAULT CHARACTER SET utf8 */ /*!80016 DEFAULT ENCRYPTION='N' */;
-USE `ontology_comparison`;
+CREATE DATABASE  IF NOT EXISTS `KGDiff` /*!40100 DEFAULT CHARACTER SET utf8 */ /*!80016 DEFAULT ENCRYPTION='N' */;
+USE `KGDiff`;
 -- MySQL dump 10.13  Distrib 8.0.20, for Win64 (x86_64)
 --
 -- Host: localhost    Database: ontology_comparison
